@@ -8,3 +8,27 @@ $btn-color: #FFC82B;
 @import "../node_modules/bootstrap/scss/bootstrap";
 
 // Then add additional custom code here*
+
+header {
+  background-color: #353F80;
+}
+
+.navbar {
+  background-color: #353F80;
+}
+
+.logo {
+  width: 60px;
+}
+
+.btn {
+  background-color: #FFC82B;
+}
+
+body {
+  background-image: url(images/familycrow.jpg)
+}
+
+footer {
+  background-color: #353F80;
+}
