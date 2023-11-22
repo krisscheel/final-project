@@ -17,18 +17,32 @@ header {
   background-color: #353F80;
 }
 
+.nav-item a {
+  color: #ffffff;
+}
+
 .logo {
   width: 60px;
 }
 
 .btn {
   background-color: #FFC82B;
+  border-radius: 50px;
+  padding: 5px 20px 5px 20px;
+  color: #353F80;
 }
 
 body {
-  background-image: url(images/familycrow.jpg)
+  background-image: url(../images/familycrow.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.hero {
+  height: 80vh;
 }
 
 footer {
   background-color: #353F80;
+  height: 20vh;
 }
