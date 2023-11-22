@@ -11888,6 +11888,14 @@ body {
   height: 80vh;
 }
 
+.banner h1, .banner .h1 {
+  color: #ffffff;
+}
+
+.banner {
+  margin: auto;
+}
+
 footer {
   background-color: #353F80;
   height: 20vh;
