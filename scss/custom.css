@@ -13780,6 +13780,20 @@ header {
   background-repeat: no-repeat;
 }
 
+.title-sect {
+  height: 40vh;
+  background-image: url(../images/parade.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.title {
+  background-color: #FFC82B;
+  width: 20%;
+  border-radius: 20px;
+}
+
 .banner h1, .banner .h1 {
   color: #ffffff;
   font-size: 3rem;
@@ -13807,6 +13821,22 @@ header {
 
 .perf-row {
   padding: 2rem 0 2rem 0;
+}
+
+.blog-stacked {
+  margin: 0 auto;
+  width: 30%;
+  padding: 4rem 0 4rem 0;
+}
+
+.card {
+  -webkit-box-shadow: 2px 2px 2px #dadada;
+          box-shadow: 2px 2px 2px #dadada;
+}
+
+.contact-card {
+  width: 50%;
+  margin: 4rem auto;
 }
 
 footer {
