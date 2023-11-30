@@ -11901,6 +11901,12 @@ header {
   background-repeat: no-repeat;
 }
 
+.overlay {
+  background-color: #000000;
+  opacity: 20%;
+  height: 80vh;
+}
+
 .title-sect {
   height: 40vh;
   background-image: url(../images/parade.jpg);
@@ -11929,11 +11935,13 @@ header {
 .cta {
   margin: auto;
   text-align: center;
-  color: #FFFFFF;
   padding-top: 20%;
-  font-size: 2rem;
-  width: 20%;
+  font-size: 1.5rem;
+  width: 60%;
+  min-width: 300px;
+  max-width: 400px;
   padding-left: 6rem;
+  color: #FFFFFF;
 }
 
 .performers-grid {
@@ -11955,7 +11963,7 @@ header {
 }
 
 .contact-card {
-  width: 50%;
+  width: 35%;
   margin: 4rem auto;
 }
 
