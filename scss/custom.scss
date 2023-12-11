@@ -13,6 +13,10 @@ header {
   background-color: #353F80;
 }
 
+main {
+  background-color: #F0EDED;
+}
+
 .navbar {
   background-color: #353F80;
 }
@@ -162,4 +166,10 @@ footer {
 .footer-social-links {
   display: flex;
   flex-direction: row;
+}
+
+@media (max-width: 990px) {
+  .social-nav {
+    display: none;
+  }
 }
