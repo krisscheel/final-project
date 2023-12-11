@@ -142,6 +142,17 @@ main {
   margin-bottom: 2rem;
 }
 
+.perf-btn {
+  background-color: $navbar-dark-color;
+  color: #ffffff;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 8rem;
+  margin: 20px auto;
+}
+
 .blog-stacked {
   margin: 0 auto;
   width: 30%;
@@ -149,12 +160,14 @@ main {
 }
 
 .card {
-  box-shadow: 2px 2px 2px #dadada;
+  box-shadow: 5px 5px 5px #dadada;
   color: #353F80;
+  border-radius: 20px;
 }
 
 .card img {
   width: 100%;
+  border-radius: 20px 20px 0px 0px;
 }
 
 .contact-card {
@@ -164,11 +177,23 @@ main {
 
 .contact-form {
   padding-bottom: 5rem;
+  box-shadow: 5px 5px 5px;
+}
+
+h5 {
+  font-size: 2rem;
+  font-weight: 500;
 }
 
 #exampleInputFirstName, #exampleInputLastName, #exampleFormControlTextarea1, #exampleInputEmail1 {
   background-color: #353F80;
   opacity: 10%;
+  border: 1px solid #353F80;
+  box-shadow: 2px 2px 2px;
+}
+
+.form-label {
+  font-weight: 500;
 }
 
 .submit-btn {
@@ -204,5 +229,4 @@ footer {
   .social-nav {
     display: none;
   }
-
 }
