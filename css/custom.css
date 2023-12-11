@@ -12012,10 +12012,19 @@ main {
   padding-bottom: 5rem;
 }
 
+#exampleInputFirstName, #exampleInputLastName, #exampleFormControlTextarea1, #exampleInputEmail1 {
+  background-color: #353F80;
+  opacity: 10%;
+}
+
 .submit-btn {
   background-color: #353F80;
   color: #ffffff;
-  margin: 10px 0;
+  margin: 20px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 10rem;
 }
 
 footer {
