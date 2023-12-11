@@ -100,13 +100,13 @@ main {
   text-align: center;
   background-color: #FFC82B;
   border-radius: 20px;
-  width: 20%;
   text-transform: uppercase;
-  padding: 20px;
+  padding: 1rem;
   font-size: 3rem;
   font-family: 'Raleway', sans-serif;
   font-weight: bold;
   color: #353F80;
+  width: 30rem;
 }
 
 .banner h1 {
@@ -153,14 +153,28 @@ main {
   color: #353F80;
 }
 
+.card img {
+  width: 100%;
+}
+
 .contact-card {
-  width: 35%;
-  margin: 4rem auto;
+  width: 50%;
+  margin: 2rem auto;
+}
+
+.contact-form {
+  padding-bottom: 5rem;
+}
+
+.submit-btn {
+  background-color: #353F80;
+  color: #ffffff;
+  margin: 10px 0;
 }
 
 footer {
   background-color: #353F80;
-  height: 15vh;
+  height: 20vh;
 }
 
 .footer-links {
