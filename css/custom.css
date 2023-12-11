@@ -11861,10 +11861,13 @@ header {
 
 main {
   background-color: #F0EDED;
+  font-family: "Raleway", sans-serif;
+  color: #353F80;
 }
 
 .navbar {
   background-color: #353F80;
+  font-family: "Raleway", sans-serif;
 }
 
 .nav-item a {
@@ -11947,6 +11950,9 @@ main {
   text-transform: uppercase;
   padding: 20px;
   font-size: 3rem;
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  color: #353F80;
 }
 
 .banner h1, .banner .h1 {
@@ -11978,8 +11984,12 @@ main {
   padding: 4rem;
 }
 
-.perf-row {
-  padding: 2rem 0 2rem 0;
+.row {
+  padding: 1rem 0;
+}
+
+.col {
+  margin-bottom: 1rem;
 }
 
 .blog-stacked {
@@ -11990,6 +12000,7 @@ main {
 
 .card {
   box-shadow: 2px 2px 2px #dadada;
+  color: #353F80;
 }
 
 .contact-card {
