@@ -178,15 +178,16 @@ footer {
 }
 
 .footer-links {
-  margin: auto;
-  margin-top: 40px;
+  margin: 20px auto;
   text-align: center;
-  width: 10%;
 }
 
 .footer-social-links {
   display: flex;
   flex-direction: row;
+  text-align: center;
+  width: 10rem;
+  margin: auto;
 }
 
 @media (max-width: 990px) {
