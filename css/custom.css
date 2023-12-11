@@ -11901,12 +11901,6 @@ header {
   background-repeat: no-repeat;
 }
 
-.overlay {
-  background-color: #000000;
-  opacity: 20%;
-  height: 80vh;
-}
-
 .title-sect-1 {
   background-image: url(../images/checks1.jpg);
   background-size: cover;
@@ -11947,15 +11941,17 @@ header {
 }
 
 .cta {
+  padding: 40px;
+  border-radius: 20px;
   margin: auto;
-  text-align: center;
-  padding-top: 20%;
-  font-size: 1.5rem;
-  width: 60%;
+  width: 50%;
   min-width: 300px;
   max-width: 400px;
-  padding-left: 6rem;
+  text-align: center;
+  font-size: 2rem;
   color: #FFFFFF;
+  background-color: rgba(0, 0, 0, 0.6);
+  margin-top: 15%;
 }
 
 .performers-grid {
@@ -11983,10 +11979,12 @@ header {
 
 footer {
   background-color: #353F80;
+  height: 15vh;
 }
 
 .footer-links {
   margin: auto;
+  margin-top: 40px;
   text-align: center;
   width: 15%;
 }
