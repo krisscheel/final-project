@@ -61,9 +61,23 @@ header {
   height: 80vh;
 }
 
+.title-sect-1 {
+  background-image: url(../images/checks1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.title-sect-2 {
+  background-image: url(../images/checks2.jpg);
+}
+
+.title-sect-3 {
+  background-image: url(../images/checks3.jpg);
+}
+
 .title-sect {
   height: 40vh;
-  background-image: url(../images/parade.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
