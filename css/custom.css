@@ -11894,6 +11894,11 @@ header {
   border: none;
 }
 
+.btn:hover {
+  background-color: #ee9ec5;
+  color: #353F80;
+}
+
 .hero {
   height: 80vh;
   background-image: url(../images/hero.jpg);
@@ -11902,18 +11907,18 @@ header {
 }
 
 .title-sect-1 {
-  background-image: url(../images/checks1.jpg);
+  background-image: url(../images/checks1.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
 }
 
 .title-sect-2 {
-  background-image: url(../images/checks2.jpg);
+  background-image: url(../images/checks2.png);
 }
 
 .title-sect-3 {
-  background-image: url(../images/checks3.jpg);
+  background-image: url(../images/checks3.png);
 }
 
 .title-sect {
@@ -11924,9 +11929,20 @@ header {
 }
 
 .title {
+  margin: auto;
+  text-align: center;
+  margin-top: -35px;
+}
+
+.title h1, .title .h1 {
+  margin: auto;
+  text-align: center;
   background-color: #FFC82B;
-  width: 20%;
   border-radius: 20px;
+  width: 20%;
+  text-transform: uppercase;
+  padding: 20px;
+  font-size: 3rem;
 }
 
 .banner h1, .banner .h1 {
