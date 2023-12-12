@@ -11997,6 +11997,12 @@ main {
   align-items: center;
   width: 8rem;
   margin: 20px auto;
+  font-weight: 500;
+}
+
+.perf-btn:hover {
+  background-color: #FFC82B;
+  color: #353F80;
 }
 
 .blog-stacked {
@@ -12073,6 +12079,14 @@ footer {
 @media (max-width: 990px) {
   .social-nav {
     display: none;
+  }
+}
+@media (max-width: 1550px) {
+  .card-title {
+    font-size: 1.5rem;
+  }
+  .card-text {
+    font-size: 0.75rem;
   }
 }
 
