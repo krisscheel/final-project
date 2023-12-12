@@ -11929,7 +11929,7 @@ main {
 }
 
 .title-sect {
-  height: 40vh;
+  height: 30vh;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -11938,7 +11938,7 @@ main {
 .title {
   margin: auto;
   text-align: center;
-  margin-top: -35px;
+  margin-top: -25px;
 }
 
 .title h1, .title .h1 {
@@ -11976,7 +11976,7 @@ main {
   text-align: center;
   font-size: 2rem;
   color: #FFFFFF;
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(0, 0, 0, 0.8);
   margin-top: 15%;
 }
 
@@ -12001,7 +12001,7 @@ main {
 
 .blog-stacked {
   margin: 0 auto;
-  width: 30%;
+  width: 60%;
   padding: 4rem 0 4rem 0;
 }
 
@@ -12011,7 +12011,7 @@ main {
   border-radius: 20px;
 }
 
-.card img {
+.contact-card img, .perf-col img {
   width: 100%;
   border-radius: 20px 20px 0px 0px;
 }
@@ -12054,7 +12054,7 @@ h5, .h5 {
 
 footer {
   background-color: #353F80;
-  height: 20vh;
+  height: 15vh;
 }
 
 .footer-links {
