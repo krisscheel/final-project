@@ -11906,7 +11906,7 @@ main {
 }
 
 .btn:hover {
-  background-color: #ee9ec5;
+  background-color: #F0EDED;
   color: #353F80;
 }
 
@@ -11979,7 +11979,7 @@ main {
   max-width: 400px;
   text-align: center;
   font-size: 2rem;
-  color: #FFFFFF;
+  color: #F0EDED;
   background-color: rgba(0, 0, 0, 0.8);
   margin-top: 15%;
 }
@@ -11994,7 +11994,7 @@ main {
 
 .perf-btn {
   background-color: #353F80;
-  color: #ffffff;
+  color: #F0EDED;
   text-transform: uppercase;
   display: flex;
   justify-content: center;
@@ -12058,7 +12058,7 @@ h5, .h5 {
 
 .submit-btn {
   background-color: #353F80;
-  color: #ffffff;
+  color: #F0EDED;
   margin: 20px auto;
   display: flex;
   justify-content: center;
