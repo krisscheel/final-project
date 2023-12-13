@@ -206,6 +206,10 @@ h5 {
   font-weight: 500;
 }
 
+.form-label {
+  padding-top: 10px;
+}
+
 .submit-btn {
   background-color: #353F80;
   color: #ffffff;
@@ -237,6 +241,9 @@ footer {
 @media (max-width: 990px) {
   .social-nav {
   display: none;
+  }
+  .submit-btn {
+    width: 8rem;
   }
 }
 
